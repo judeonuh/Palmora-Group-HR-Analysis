@@ -6,6 +6,7 @@ This repository presents an analysis of Palmora Group HR Data.
 ## Dashboard
 The analysis dashboard can be accessed [here]()  
 
+![Gender Distr img](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmora%20Group%20Gender%20Distr.png)  ![Salary Analysis img](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmora%20Group%20Salary%20Analysis.png)
 
 ## Company Overview
 The Palmoria Group is a manufacturing company based in Nigeria with Mr Ayodeji Chukwuma as the CEO.
@@ -63,12 +64,116 @@ To analyse Palmora Group HR Data to identify key areas within the business that 
 - Replaced null values in the Gender column with “Undisclosed Gender”
 - Using filter in Power Query, removed records of staff that has left the company i.e., with no salary (43 records) and staff with NULL Departments (26 records).
 
-
 ---
 
 ## Analysis and Recommendations
+### 1. Gender Distribution Overview
+The Gender distribution in the organisation shows a strong male representation (**430** Males) compared to **406** Females. Furthermore, this was reflected by most regions with higher male dominance observed in Kaduna and Lagos, and an equal distribution in Abuja.
 
-### 1. Highest Sales Product Category
+**Recommendations**:  
+- Focus recruitment efforts on increasing female representation in all regions, especially in Kaduna.  
+- Leverage Abuja as a model for promoting gender equality across other regions.  
+
+---
+
+### 2. Gender Distribution by Department
+
+| Department           | Males | Females | Undisclosed |
+|----------------------|-------|---------|-------------|
+| Legal                | 44    | 32      | 0           |
+| Product Management   | 39    | 1       | 0           |
+| Services             | 39    | 35      | 3           |
+| Engineering          | 35    | 35      | 5           |
+
+**Recommendations**:  
+- Improve female representation in **Product Management** and **Legal** departments.  
+- Engineering shows good gender balance but undisclosed data should be clarified.  
+
+---
+
+### 3. Performance Ratings by Gender
+
+- **Average Rating**: Females: 203 | Males: 180  
+- **Good Rating**: Females: 82 | Males: 73  
+- **Very Good Rating**: Females: 44 | Males: 32  
+
+✅ **Insight**: Females outperform males across key rating categories.
+
+**Recommendations**:  
+- Strengthen female retention and promotion programs.  
+- Ensure unbiased recognition and reward processes.  
+
+---
+
+### 4. Salary Structure & Gender Pay Gap
+
+#### Overall Avg. Salary  
+- **Male**: £79.25K  
+- **Female**: £74.51K  
+- **Undisclosed**: £72.61K  
+
+**Departments with Pay Gaps Favoring Males**:
+- Business Development: £6K gap  
+- Services: £6K gap  
+- Accounting: £4K gap  
+
+**Departments Where Females Earn More**:
+- Marketing: £6K advantage  
+- Training: £4K advantage  
+
+#### By Region  
+- Lagos: £1K gap  
+- Kaduna: £1K gap  
+- Abuja: £3K gap  
+
+**Recommendations**:  
+- Conduct salary audits for **Business Development**, **Services**, **Accounting**, and **Abuja region**.  
+- Align pay with performance to close unjustified gaps.  
+
+---
+
+### 5. Regulatory Compliance Check ✅
+
+New manufacturing regulation requires a minimum annual salary of **$90,000**.  
+
+💡 **Exchange Rate Consideration**:  
+£90,000 ≈ **$114,300**  
+
+**Current Findings**:
+- Large number of employees earn less than £90,000, suggesting non-compliance if they belong to Manufacturing.
+
+**Action Required**:
+- Identify employees under £90K within Manufacturing.  
+- Adjust salaries to meet or exceed $90,000 equivalent.  
+- Continuously monitor for currency fluctuations to maintain compliance.  
+
+---
+
+## 📂 Repository Contents
+
+- Power BI PBIX File  
+- Screenshots of HR Dashboard  
+- README with insights and recommendations  
+
+---
+
+## 📢 Next Steps
+
+✅ Develop additional dashboards to track:  
+- Gender pay gap by job level  
+- Regional salary trends  
+- Regulatory compliance in real-time  
+
+---
+
+## 🛠 Technologies Used
+
+- Power BI  
+- DAX  
+- Git & GitHub  
+
+---
+
 
 ---
 
