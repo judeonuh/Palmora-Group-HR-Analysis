@@ -6,32 +6,35 @@ This repository presents an analysis of Palmora Group HR Data.
 ## Dashboard
 The analysis dashboard can be accessed [here]()  
 
-![Gender Distr img](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmora%20Group%20Gender.png)  ![Salary Analysis img](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmora%20Group%20Salary%20Analysis.png)
+![Gender Distr img](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmora%20Group%20Gender.png)  
 
-## Company Overview
-The Palmoria Group is a manufacturing company based in Nigeria with Mr Ayodeji Chukwuma as the CEO.
+![Salary Analysis img](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmora%20Group%20Salary%20Analysis.png)
 
 ---
 
 ## Problem Statement
-Palmora Group is embroiled in issues bordering on gender inequality in its 3 regions. Unfortunately, the media recently published the news with the headline “Palmoria, the Manufacturing Patriarchy”. This doesn’t look good for the owners of the business, based on their ambition to scale the business to other regions and even overseas. Cases like this can only spiral downwards, revealing other issues like the gender pay gap, amongst other possible issues.  
+The Palmoria Group is a manufacturing company based in Nigeria with Mr Ayodeji Chukwuma as the CEO. The Group is embroiled in issues bordering on gender inequality in its 3 regions. Unfortunately, the media recently published the news with the headline “Palmoria, the Manufacturing Patriarchy”. This doesn’t look good for the owners of the business, based on their ambition to scale the business to other regions and even overseas. Cases like this can only spiral downwards, revealing other issues like the gender pay gap, amongst other possible issues.  
 
 ---
 
 ## Aim  
-To analyse Palmora Group HR Data to identify key areas within the business that could give rise to issues, and suggest recommendations for management’s attention.  
+This analysis provides a comprehensive evaluation of gender representation, performance, salary structure, and regulatory compliance within Palmora Group. The aim is to identify areas of gender disparity, uncover underlying trends, and propose data-driven, actionable recommendations to foster inclusivity, improve employee performance, and ensure regulatory compliance.
 
 ---
 
 ## 📁 Table of Contents
-- [Company Overview](#company-overview)
 - [Problem Statement](#problem-statement)
 - [Aim](#aim)
 - [Data Overview](#data-overview)  
 - [Methodology](#methodology)
+- [Technologies Used](#technologies-used)
 - [Data Cleaning](#data-cleaning)
 - [Analysis and Recommendations](#analysis-and-recommendations)  
-  - [1. Highest Sales Product Category](#1-highest-sales-product-category)  
+  - [1. Gender Distribution by Region](#1-gender-distribution-by-region)
+  - [2. Gender Distribution by Department](2-gender-distribution-by-department)
+  - [3. Performance Ratings by Gender](3-performance-ratings-by-gender)
+  - [4. Salary Structure and Gender Pay Gap](4-salary-structure-and-gender-pay-gap)
+  - [5. Regulatory Compliance Check](5-regulatory-compliance-check) 
 - [Overall Recommendations](#overall-recommendations)  
 - [Conclusion](#conclusion)  
 
@@ -60,6 +63,13 @@ To analyse Palmora Group HR Data to identify key areas within the business that 
 
 ---
 
+## Technologies Used
+- Power BI  
+- DAX  
+- Git & GitHub  
+
+---
+
 ## Data Cleaning  
 - Replaced null values in the Gender column with “Undisclosed Gender”
 - Using filter in Power Query, removed records of staff that has left the company i.e., with no salary (43 records) and staff with NULL Departments (26 records).
@@ -68,114 +78,68 @@ To analyse Palmora Group HR Data to identify key areas within the business that 
 
 ## Analysis and Recommendations
 ### 1. Gender Distribution by Region
-The Gender distribution in the organisation shows a strong male representation (**430** Males) compared to **406** Females. Furthermore, this was reflected by most regions with higher male dominance observed in Kaduna and Lagos, and an equal distribution in Abuja.
+The gender composition across Palmora Group reveals a modest gender imbalance. Out of the total workforce, 430 are males and 406 are females, indicating approximately 51% male dominance. Regionally:
+* Kaduna and Lagos exhibit noticeable male dominance.
+* Abuja displays a commendable gender balance, serving as a positive outlier.
 
-**Recommendations**:  
-- Focus recruitment efforts on increasing female representation in all regions, especially in Kaduna.  
-- Leverage Abuja as a model for promoting gender equality across other regions.  
+Such imbalances may limit diversity-driven innovation and may indicate barriers to female recruitment or retention in specific regions.
+
+**Recommendations:**
+* Launch targeted female recruitment campaigns, prioritising Kaduna and Lagos.
+* Conduct exit interviews and employee feedback sessions to understand regional gender-specific challenges.
+* Utilise Abuja as a benchmark for gender inclusivity practices to be replicated across other locations.
 
 ---
 
 ### 2. Gender Distribution by Department
-Gender distribution within departments is disproportionate, with the males dominating most departments, especially Legal, Support, and Accounting departments. However, there was a strong female representation in Services, Business Development, Human Resource, and Research and Development. The analysis also show gender equality in Engineering and Marketing departments.
+Gender distribution within departments is disproportionate, with the males dominating most departments, especially Legal, Support, and Accounting departments. However, there was a strong female representation in Services, Business Development, Human Resource, and Research and Development. The analysis also show near gender parity in Engineering and Marketing departments. However, a portion of the workforce still has an undisclosed gender, potentially masking deeper gaps.
 
 **Recommendations**:  
 - Improve female representation in most departments, especially in the **Accounting** department.  
-- Engineering department shows good gender balance, however, the undisclosed gender data should be clarified.  
+- Engineering department shows good gender balance, however, the undisclosed gender data should be clarified. Review and improve data collection processes to minimise undisclosed gender records.
+- Recognise and reward departments like Marketing and Engineering for maintaining gender balance, reinforcing these as internal best practices.
 
 ---
 
 ### 3. Performance Ratings by Gender
-Females seem to outperform males across top rating categories (i.e. "Good" and "Very Good"). Majority of the staff (Males and Females) in the organisation are rated "Average".
+Analysis of performance ratings uncovers encouraging patterns: A higher proportion of Females are represented within the top-performing groups ("Good" and "Very Good" ratings). However, the majority of both Male and Female employees are clustered within the "Average" rating band, suggesting organisational performance stagnation.
 
 **Recommendations**:  
-- Strengthen female retention and promotion programs.  
-- Ensure unbiased recognition and reward processes.
-- Introduce programs, trainings, and resources to improve the general performance of all staff, especially the average ones.
-- Identify the poor performing staff and provide support tailored to their needs.  
+- Establish mentorship and leadership pathways to retain and promote high-performing females.
+- Strengthen performance review processes to ensure objectivity and eliminate potential unconscious bias.
+- Introduce targeted training and development programs to uplift average performers and support underperforming staff with tailored improvement plans.
+- Identify the poor performing staff and provide support tailored to their needs. 
 
 ---
-# START HERE
-### 4. Salary Structure & Gender Pay Gap
+### 4. Salary Structure and Gender Pay Gap
+A notable, albeit modest, gender pay gap persists: Average salary for Males ($74.5K) is slightly higher than that of Females ($72.6K). This was distilled across all regions, showing that Males had higher pay advantage than Females in these regions. Suprisingly, staff (Male and Female) in Lagos had the highest average salary, even though this region had the least number of staff compared to the other regions. This disparity may be a reflection of the high cost of living in Lagos.  
 
-#### Overall Avg. Salary  
-- **Male**: £79.25K  
-- **Female**: £74.51K  
-- **Undisclosed**: £72.61K  
-
-**Departments with Pay Gaps Favoring Males**:
-- Business Development: £6K gap  
-- Services: £6K gap  
-- Accounting: £4K gap  
-
-**Departments Where Females Earn More**:
-- Marketing: £6K advantage  
-- Training: £4K advantage  
-
-#### By Region  
-- Lagos: £1K gap  
-- Kaduna: £1K gap  
-- Abuja: £3K gap  
+Department-wise, Males had higher average salaries in 9 out of the 12 departments, except in **Marketing, Training and Engineering** departments where Females had slightly higher pay than their Male counterparts. 
 
 **Recommendations**:  
-- Conduct salary audits for **Business Development**, **Services**, **Accounting**, and **Abuja region**.  
-- Align pay with performance to close unjustified gaps.  
+- Commission an independent, data-driven salary equity audit across regions and departments.
+- Design structured, transparent pay frameworks linked to objective performance metrics.
+- Address unjustified gender-based pay gaps while considering regional economic factors, such as Lagos' higher living costs. 
 
 ---
 
-### 5. Regulatory Compliance Check ✅
+### 5. Regulatory Compliance Check
+Given the new regulation that mandates all manufacturing companies to pay their staff a minimum annual salary of **$90,000**, the analysis reveals that Palmora is non-compliant. A total of 599 staff (213 in Abuja, 232 in Kaduna, and 154 in Lagos) earn less than $90k.
 
-New manufacturing regulation requires a minimum annual salary of **$90,000**.  
-
-💡 **Exchange Rate Consideration**:  
-£90,000 ≈ **$114,300**  
-
-**Current Findings**:
-- Large number of employees earn less than £90,000, suggesting non-compliance if they belong to Manufacturing.
-
-**Action Required**:
-- Identify employees under £90K within Manufacturing.  
-- Adjust salaries to meet or exceed $90,000 equivalent.  
-- Continuously monitor for currency fluctuations to maintain compliance.  
-
----
-
-## 📂 Repository Contents
-
-- Power BI PBIX File  
-- Screenshots of HR Dashboard  
-- README with insights and recommendations  
-
----
-
-## 📢 Next Steps
-
-✅ Develop additional dashboards to track:  
-- Gender pay gap by job level  
-- Regional salary trends  
-- Regulatory compliance in real-time  
-
----
-
-## 🛠 Technologies Used
-
-- Power BI  
-- DAX  
-- Git & GitHub  
-
----
-
+**Recommendation**:
+- Immediately identify affected employees across all regions.
+- Develop a phased salary adjustment plan to achieve full compliance within stipulated timelines.
+- Engage with legal and regulatory experts to ensure all future compensation structures align with evolving policy requirements.  
 
 ---
 
 ## Overall Recommendations
-- Expand focus on technology products.  
-- Address underperformance in specific regions.  
-- Strengthen relationships with top customers.  
-- Improve shipping efficiency based on order priority.  
-- Investigate product returns and enhance quality control.  
-
+- **Diversity & Inclusion:** Implement a comprehensive gender diversity and inclusion strategy targeting both recruitment and retention, especially in underrepresented regions and departments.
+- **Data Quality:** Improve employee data collection, specifically for gender disclosure, to enhance the accuracy of diversity reporting.
+- **Performance Development:** Invest in performance improvement initiatives to reduce the concentration of "Average" performers, with particular attention to supporting underperformers.
+- **Pay Equity:** Conduct regular salary audits, link pay to transparent performance metrics, and actively work to close unjustified gender pay gaps.
+- **Regulatory Compliance:** Establish a compliance task force to monitor salary structures and ensure alignment with all current and future industry regulations.
 ---
 
 ## Conclusion
-This analysis highlights key areas where KMS can improve operational efficiency, revenue generation, and customer satisfaction. By implementing the outlined recommendations, KMS Abuja can strengthen market presence and optimize business processes.
+This analysis underscores both progress and challenges within Palmora Group's workforce structure. While the organisation demonstrates pockets of gender balance and female excellence in performance, persistent gender pay gaps and departmental disparities remain. Proactive, data-driven actions, combined with a commitment to equity and inclusivity, will position Palmora Group as a model employer, fostering a diverse, high-performing, and compliant workforce.
