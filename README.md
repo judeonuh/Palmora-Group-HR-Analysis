@@ -6,7 +6,7 @@ This repository presents an analysis of Palmora Group HR Data.
 ## Dashboard
 The analysis dashboard can be accessed [here]()  
 
-![Gender Distr img](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmora%20Group%20Gender%20Distr.png)  ![Salary Analysis img](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmora%20Group%20Salary%20Analysis.png)
+![Gender Distr img](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmora%20Group%20Gender.png)  ![Salary Analysis img](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmora%20Group%20Salary%20Analysis.png)
 
 ## Company Overview
 The Palmoria Group is a manufacturing company based in Nigeria with Mr Ayodeji Chukwuma as the CEO.
@@ -67,7 +67,7 @@ To analyse Palmora Group HR Data to identify key areas within the business that 
 ---
 
 ## Analysis and Recommendations
-### 1. Gender Distribution Overview
+### 1. Gender Distribution by Region
 The Gender distribution in the organisation shows a strong male representation (**430** Males) compared to **406** Females. Furthermore, this was reflected by most regions with higher male dominance observed in Kaduna and Lagos, and an equal distribution in Abuja.
 
 **Recommendations**:  
@@ -77,34 +77,25 @@ The Gender distribution in the organisation shows a strong male representation (
 ---
 
 ### 2. Gender Distribution by Department
-
-| Department           | Males | Females | Undisclosed |
-|----------------------|-------|---------|-------------|
-| Legal                | 44    | 32      | 0           |
-| Product Management   | 39    | 1       | 0           |
-| Services             | 39    | 35      | 3           |
-| Engineering          | 35    | 35      | 5           |
+Gender distribution within departments is disproportionate, with the males dominating most departments, especially Legal, Support, and Accounting departments. However, there was a strong female representation in Services, Business Development, Human Resource, and Research and Development. The analysis also show gender equality in Engineering and Marketing departments.
 
 **Recommendations**:  
-- Improve female representation in **Product Management** and **Legal** departments.  
-- Engineering shows good gender balance but undisclosed data should be clarified.  
+- Improve female representation in most departments, especially in the **Accounting** department.  
+- Engineering department shows good gender balance, however, the undisclosed gender data should be clarified.  
 
 ---
 
 ### 3. Performance Ratings by Gender
-
-- **Average Rating**: Females: 203 | Males: 180  
-- **Good Rating**: Females: 82 | Males: 73  
-- **Very Good Rating**: Females: 44 | Males: 32  
-
-✅ **Insight**: Females outperform males across key rating categories.
+Females seem to outperform males across top rating categories (i.e. "Good" and "Very Good"). Majority of the staff (Males and Females) in the organisation are rated "Average".
 
 **Recommendations**:  
 - Strengthen female retention and promotion programs.  
-- Ensure unbiased recognition and reward processes.  
+- Ensure unbiased recognition and reward processes.
+- Introduce programs, trainings, and resources to improve the general performance of all staff, especially the average ones.
+- Identify the poor performing staff and provide support tailored to their needs.  
 
 ---
-
+# START HERE
 ### 4. Salary Structure & Gender Pay Gap
 
 #### Overall Avg. Salary  
