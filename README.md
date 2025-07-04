@@ -3,8 +3,8 @@ This repository presents an analysis of Palmora Group HR Data.
 
 ---
 
-## Dashboard
-The analysis dashboard can be accessed [here]()  
+## Analysis Report
+The analysis report can be accessed [here](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmora%20Group%20HR%20Analysis.pbix). This report has been grouped into two pages: Gender Distribution and Salary Analysis. All pages contain slicers to allow for interactive filtering of reports by Department or Region.  
 
 ![Gender Distr img](https://github.com/judeonuh/Palmora-Group-HR-Analysis/blob/main/Palmora%20Group%20Gender.png)  
 
