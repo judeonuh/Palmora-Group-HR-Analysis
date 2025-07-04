@@ -29,12 +29,7 @@ This analysis provides a comprehensive evaluation of gender representation, perf
 - [Methodology](#methodology)
 - [Technologies Used](#technologies-used)
 - [Data Cleaning](#data-cleaning)
-- [Analysis and Recommendations](#analysis-and-recommendations)  
-  - [1. Gender Distribution by Region](#1-gender-distribution-by-region)
-  - [2. Gender Distribution by Department](2-gender-distribution-by-department)
-  - [3. Performance Ratings by Gender](3-performance-ratings-by-gender)
-  - [4. Salary Structure and Gender Pay Gap](4-salary-structure-and-gender-pay-gap)
-  - [5. Regulatory Compliance Check](5-regulatory-compliance-check) 
+- [Analysis and Recommendations](#analysis-and-recommendations)
 - [Overall Recommendations](#overall-recommendations)  
 - [Conclusion](#conclusion)  
 
