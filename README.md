@@ -1,9 +1,5 @@
 # Palmora-Group-HR-Analysis
-This repository presents an analysis of Palmora Group HR Data.
-
 ---
-
-## Analysis Report
 The interactive report for this analysis can be accessed [here](https://app.powerbi.com/view?r=eyJrIjoiZTAzOTU3MWUtOTIzNS00ZjhiLTk0ODEtMmVhMzdmMWUxYTk1IiwidCI6IjJjYzg3ZmM4LTY5NDQtNDUzMC1hNThlLTFjMDY0MTE4NTYzMCJ9). The report has been grouped into two pages: Gender Distribution and Salary Analysis. All pages contain slicers to allow for interactive filtering of reports by Department or Region.  
 
 ---
